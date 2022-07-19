@@ -4,7 +4,7 @@ int main(){
     printf("Enter the size of array and value of k");
     scanf("%d %d",&n,&k);
     printf("Enter the array elements");
-    int arr[n];
+    int arr[n]; 
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
